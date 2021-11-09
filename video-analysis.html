@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Leqitside">
+    <meta name="description" content="The official Waldo documentation. We're glad to see you here and want to help you get started quickly!">
+    <title>Waldo Documentation</title>
+    <link rel="shortcut icon" type="image/png" href="https://via.placeholder.com/16x16" >
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/uikit.js"></script>
+</head>
+
+<body>
+
+<header class="uk-background-primary uk-background-norepeat uk-background-cover uk-background-center-center uk-light"
+	style="background-image: url(https://i.ibb.co/sgpggfh/solid-color-image.png);">
+	<nav class="uk-navbar-container">
+	  <div class="uk-container">
+	    <div data-uk-navbar>
+	      <div class="uk-navbar-left">
+	        <a class="uk-navbar-item uk-logo uk-visible@m" href="index.html">WALDOCS</a>
+	      </div>
+	      <div class="uk-navbar-center uk-hidden@m">
+	        <a class="uk-navbar-item uk-logo" href="index.html">WALDOCS</a>
+	      </div>
+	      <div class="uk-navbar-right">
+	        <ul class="uk-navbar-nav uk-visible@m">
+	          <li class="uk-active"><a href="index.html">Home</a></li>
+	          <li ><a href="article.html">Changelog</a></li>
+	          <li>
+	            <div class="uk-navbar-item">
+	              <a class="uk-button uk-button-small uk-button-primary-outline" href="https://bit.ly/3mqDTV0">Discord</a>
+	            </div>
+	          </li>
+	        </ul>
+	        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span
+	          data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+
+
+	<div class="uk-section uk-section-small uk-section-hero uk-position-relative" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+		<div class="uk-container">
+			<div class="hero-search uk-margin-bottom">
+				<div class="uk-position-relative">
+					<form class="uk-search uk-search-default uk-width-1-1" name="search-hero" onsubmit="return false;">
+						<span data-uk-search-icon="ratio: 1.2"></span>
+						<input id="search-hero" class="uk-search-input uk-form-large uk-border-rounded" type="search"
+							placeholder="Search for answers" autocomplete="off" data-minchars="1" data-maxitems="30">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="uk-section uk-section-muted">
+  <div class="uk-container">
+    <ul class="uk-breadcrumb">
+      <li><a href="index.html">Help Center</a></li>
+      <li><span>Video Analysis</span></li>
+    </ul>
+    <div class="uk-grid-small" data-uk-grid>
+      <div class="uk-width-auto uk-text-primary">
+        <span class="uk-margin-xsmall-top" data-uk-icon="icon: image; ratio: 2.6"></span>
+      </div>
+      <div class="uk-width-expand">
+        <h1 class="uk-article-title uk-margin-remove">Video Analysis</h1>
+        <p class="uk-text-lead uk-text-muted uk-margin-small-top">Anything related to video analyzation goes here. Below you will find meeting agendas and status updates.</p>
+      </div>
+    </div>
+    <div class="uk-margin-medium-top">
+      <div class="uk-card uk-card-category uk-card-default uk-card-hover uk-card-body uk-inline uk-border-rounded uk-width-1-1">
+        <a class="uk-position-cover" href="article.html"></a>
+        <h3 class="uk-card-title uk-margin-remove uk-text-primary">Example post</h3>
+        <p class="uk-margin-small-top">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                                       labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+        <div class="uk-article-meta uk-flex uk-flex-middle">
+          <img class="uk-border-circle uk-avatar-small" src="https://via.placeholder.com/80x80" alt="Sara Galen">
+          <div>
+            Written by name here <br>
+            <time class="uk-margin-small-right" datetime="2019-10-05">date here</time>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+  <div class="uk-offcanvas-bar">
+    <a class="uk-logo" href="index.html">WALDOCS</a>
+    <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+    <ul class="uk-nav uk-nav-primary uk-nav-offcanvas uk-margin-top uk-text-center">
+      <li class="uk-active"><a href="index.html">Home</a></li>
+      <li ><a href="article.html">Changelog</a></li>
+      <li>
+        <div class="uk-navbar-item"><a class="uk-button uk-button-primary" href="https://bit.ly/3mqDTV0">Discord</a></div>
+      </li>
+    </ul>
+    <div class="uk-margin-top uk-text-center">
+      <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center">
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="uk-section uk-text-center uk-text-muted">
+	<div class="uk-container uk-container-small">
+    <div>
+    </div>
+    <div>
+    </div>
+		<div class="uk-margin-medium uk-text-small uk-link-muted">Made with &#10084 by the <a
+				 href="https://bit.ly/3mqDTV0">the Waldo team</a></div>
+	</div>
+</footer>
+
+<script src="js/awesomplete.js"></script>
+<script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
